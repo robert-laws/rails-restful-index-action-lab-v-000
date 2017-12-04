@@ -1,5 +1,3 @@
 Rails.application.routes.draw do
-  def students
-    
-  end
+  resources :students, only: :index
 end
